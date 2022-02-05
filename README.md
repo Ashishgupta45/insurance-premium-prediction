@@ -37,7 +37,15 @@ In this project we are predicting an expense to people based on their individual
 
 ## Overview:
 
-This dataset contains information on Age, Sex, BMI, Children, Smoker, Region and Expenses. 
+we have to give people an estimate of how much they need based on their individual health situation. After that, customers can work with any health insurance carrier and its plans and perks while keeping the projected cost from our study in mind. This can assist a person in concentrating on the health side of an insurance policy rather han the ineffective part.
+This is regression supervised machine learning project. I have used linear regression to predict expenses and using mse metric to observe how our model is working. After this applied neural network, getting more robust model.
+
+Dataset contains information on Age, Sex, BMI, Children, Smoker, Region and Expenses.starting with cleaning data. we have outlier in expense column removing outlier using log10. after this we dont have any other outlier in our data. then i plot correlation plot to check independent and dependent variable correlation. having more correlated variable we wil drop that. but in our data we dont have high correlated variable.checking duplicatesand if any we will drop those data using drop_duplicated. 
+
+In visualization we visualize all feature variable, in region more people living in southeast region 27.22% followed by southwest 24.29%, northeast and northwest 24.29%, 24.21% respectively. In countplot for smoker in region i found that there are large number of non-smoker in different region and all region have atleast 50 people smokers. checking number of smokers in different age, In all age people are smoking and maximum people are from age 19.checking smoker sex wise, gender wise male ratio is higher than female smoking and in non-smoking female have high ratio than male. checking region-wise gender distribution, there are almost equal number of male and female ratio in all region. checking region wise expenses for smokers, smoker have high expenses compare to non-smoker.checking expenses gender wise if it's smoker or not,  we found that rather male or female if he/she is smoking they are having higher expenses compare to the non-smokers. ploting batplot to finalise that smoker have higher expenses than non-smoker. countplot for smoker and non-smoker, there are very less people are smoking compare to non-smoker.(rather we have very less people with smoking but there is large effect on expenses because smokers are having large expenses.this we will check using scatterplot.) 
+
+In feature Engineering we will create new feature i.e categorize_bmi. in this bmi will be categorize in underweight,normal, overweight and obese. we will create dummy variable for sex, children, smoker, region and categorize_bmi. applying linear regression model accuracy 77. 
+
 
 Technology and tools wise this project covers,
 
