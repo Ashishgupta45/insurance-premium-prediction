@@ -13,7 +13,7 @@ The goal of this project is to give people an estimate of how much they need bas
 In this project we are predicting an expense to people based on their individual health situation. This is regression supervised machine learning project. I have used linear regression to predict expenses and using mse metric to observe how our model is working. After this applied neural network, getting more robust model.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-<img target="_blank" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livemint.com%2FMoney%2FMBK1VIyvrSWt8VBoBG1m1J%2FAnnual-health-insurance-premiums-increase-as-you-grow-older.html&psig=AOvVaw1GTbKpyOJ4RZ2iJLXfaI4U&ust=1644130275298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCggeT85_UCFQAAAAAdAAAAABAD.jpg" width=1000; height=300>
+<img target="_blank" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livemint.com%2FMoney%2FMBK1VIyvrSWt8VBoBG1m1J%2FAnnual-health-insurance-premiums-increase-as-you-grow-older.html&psig=AOvVaw1GTbKpyOJ4RZ2iJLXfaI4U&ust=1644130275298000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNCggeT85_UCFQAAAAAdAAAAABAD.png" width=1000; height=300>
 
 ## Dataset information:
 
